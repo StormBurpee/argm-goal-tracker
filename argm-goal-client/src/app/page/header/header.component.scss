@@ -1,0 +1,31 @@
+.header-spacer {
+    flex: 1 1 auto;
+}
+
+.app-header-main {
+    & mat-toolbar {
+        background: #364860;
+        color: #f7f9fb;
+        font-weight: 300;
+        height: 65px;
+        line-height: 65px;
+        padding: 0px;
+        
+        & .header-logo {
+            background: #67A6DF;
+            color: #FFF;
+            padding: 0 30px;
+        }
+
+        & ul {
+            list-style-type: none;
+            & li {
+                display: inline-block;
+                padding: 0 15px;
+                &.active a {
+                    border-bottom: 1px solid #67A6DF;
+                }
+            }
+        }
+    }
+}
