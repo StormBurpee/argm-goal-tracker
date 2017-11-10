@@ -1,0 +1,11 @@
+{
+  "name": "argm-server",
+  "version": "0.0.1",
+  "description": "Server for argm-goal-tracker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Storm Burpee",
+  "license": "ISC"
+}
